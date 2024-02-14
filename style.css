@@ -350,6 +350,11 @@
     color: #6b7cbe;
 }
 
+
+#big {
+    width: 400px;
+}
+
 @media (max-width: 4000px) {
 
     .navbar {
@@ -403,5 +408,19 @@
 
     .header {
         padding-left: 10%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .drink {
+        width: 100%
+    }
+
+    .drink img {
+        width: 90%;
+    }
+
+    #big {
+        width: 100%;
     }
 }
